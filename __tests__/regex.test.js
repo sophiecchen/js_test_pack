@@ -1,8 +1,8 @@
 const assert = require('assert');
 const regex = require('../index');
 
-
-assert.strictEqual(regex.alphabet("cat"), true, 'one');
+var match = regex.alphabet("cat");
+assert.strictEqual(match, true, 'one');
 
 assert.strictEqual(regex.alphabet("what"), true, 'two');
 
