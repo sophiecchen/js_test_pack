@@ -1,9 +1,9 @@
 const assert = require('assert');
 const path = require('path');
 
-print("Here")
+console.log("Here")
 const regex = require(path.resolve(__dirname, '../index.js'));
-print("There")
+console.log("There")
 
 assert.strictEqual(regex.alphabet("cat"), true, 'one');
 
