@@ -1,5 +1,3 @@
-console.log("Hello");
-
 const assert = require('assert');
 const regex = require('../index.js');
 
